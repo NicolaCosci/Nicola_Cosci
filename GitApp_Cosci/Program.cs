@@ -10,9 +10,9 @@ namespace GitApp_Cosci
     {
         static void Main(string[] args)
         {
-            string risultato;
-            int num = 255;
-            risultato = "";
+            string risultato; int num = 255;risultato = "";
+            Console.WriteLine("inserisci un numero in input");
+            num = Convert.ToInt32(Console.ReadLine());
             while(num>1)
             {
                 int resto = num % 2;
