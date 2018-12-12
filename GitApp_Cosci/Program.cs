@@ -10,7 +10,7 @@ namespace GitApp_Cosci
     {
         static void Main(string[] args)
         {
-            Console.WriteLine();
+         
         } 
     }
 }
